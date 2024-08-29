@@ -59,7 +59,7 @@ const ExportForm = ({ onClose }: ExportFormProps) => {
     }
   }
 
-  const linkText = `https://nolatin.com/share/${friendlyName}`
+  const linkText = `https://app.nolatin.com/share/${friendlyName}`
 
   return (
     <div>

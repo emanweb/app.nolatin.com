@@ -77,7 +77,7 @@ export default function Preview({ share = false }: PreviewProps) {
       <div className="post-footer">
         <p>
           Accessible Prototype by{" "}
-          <a href="nolatin.com" target="_blank" rel="noopener noreferrer">
+          <a href="app.nolatin.com" target="_blank" rel="noopener noreferrer">
             No Latin
           </a>{" "}
           - Shift-left Accessibility
