@@ -30,11 +30,3 @@ jobs:
           sudo chown -R www-data:www-data /var/www/app.nolatin.com/htdocs/*
           # Run any commands you need to restart services, install dependencies, etc. 
           EOF
-  #        server: ${{ secrets.FTP_SERVER }}
-  #        username: ${{ secrets.FTP_USERNAME }}
-  #        password: ${{ secrets.FTP_PASSWORD }}
-  #        server-dir: ${{ secrets.MAIN_FOLDER }}
-  #        local-dir: ./build/
-  #        exclude: |
-  #          **/public/**
-  #          **/src/**
